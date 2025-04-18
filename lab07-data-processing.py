@@ -2,7 +2,6 @@ from tqdm import tqdm
 import requests
 from pprint import pprint
 
-
 total_comments = []
 num_posts = 100
 for post_id in tqdm(range(1, num_posts + 1)):
